@@ -37,7 +37,7 @@ def error(update, context):
 
 
 def main():
-    updater = Updater("5185398555:AAFQyiI65gVixhpuy1QVyAykA29XFiPUJvc", use_context=True)
+    updater = Updater("INSERT API KEY HERE", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
